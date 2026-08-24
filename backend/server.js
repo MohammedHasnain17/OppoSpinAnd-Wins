@@ -13,7 +13,8 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: https://oppospinand-wins-frontend.onrender.com,
+   origin: "http://localhost:5173",
+    "https://oppospinand-wins-frontend.onrender.com",
   })
 );
 
