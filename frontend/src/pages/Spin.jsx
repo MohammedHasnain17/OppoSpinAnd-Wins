@@ -71,7 +71,7 @@ function Spin() {
     setError("");
 
     try {
-      const response = await fetch("http://localhost:5000/api/spin", {
+      const response = await fetch("https://oppospinand-wins-backend.onrender.com/api/spin", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

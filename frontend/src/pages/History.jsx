@@ -18,7 +18,7 @@ function History() {
       setError("");
 
       const response = await fetch(
-        "http://localhost:5000/api/history"
+        "https://oppospinand-wins-backend.onrender.com/api/history"
       );
 
       const data = await response.json();
@@ -65,7 +65,7 @@ function History() {
       setError("");
 
       const response = await fetch(
-        `http://localhost:5000/api/history/${customer._id}`,
+        `https://oppospinand-wins-backend.onrender.com/api/history/${customer._id}`,
         {
           method: "DELETE",
         }

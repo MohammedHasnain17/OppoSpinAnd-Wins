@@ -227,7 +227,7 @@ function Home() {
       data.append("invoice", invoice);
 
       const response = await fetch(
-        "http://localhost:5000/api/customers/register",
+        "https://oppospinand-wins-backend.onrender.com/api/customers/register",
         {
           method: "POST",
           body: data,
